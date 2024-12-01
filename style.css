@@ -1,0 +1,49 @@
+/* General Card Styling */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Text Styling */
+  .card-title {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* Discount Card Styling */
+  .card.bg-warning {
+    background-image: linear-gradient(135deg, #ffcc00, #ff9900);
+  }
+  .card.bg-warning:hover {
+    background-image: linear-gradient(135deg, #ff9900, #ff6600);
+  }
+  
+  /* Custom Buttons */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004494;
+  }
+  
+  .btn-light {
+    color: #333;
+    background-color: white;
+    border-color: white;
+  }
+  .btn-light:hover {
+    color: white;
+    background-color: #ff6600;
+  }
+  
